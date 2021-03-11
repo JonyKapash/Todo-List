@@ -1,0 +1,22 @@
+.todo_list {
+	display: flex;
+	align-items: center;
+	margin: auto;
+	width: 100%;
+	border: 2px solid rgb(53, 58, 53);
+	padding: 0 50px;
+	border-radius: 20px;
+	box-shadow: 5px 5px #d4cbcb;
+}
+
+.todo_list > li {
+	display: flex;
+}
+
+.todo_list > span {
+	font-size: 5rem;
+}
+
+#delBtn {
+	cursor: pointer;
+}
