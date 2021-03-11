@@ -1,12 +1,12 @@
 .todo_list {
 	display: flex;
 	align-items: center;
-	margin: auto;
+	margin-left: -70px;
 	width: 100%;
-	border: 2px solid rgb(53, 58, 53);
+	border: 1px solid rgba(108, 116, 108, 0.671);
 	padding: 0 50px;
 	border-radius: 20px;
-	box-shadow: 5px 5px #d4cbcb;
+	box-shadow: 3px 4px #d4cbcb;
 }
 
 .todo_list > li {
